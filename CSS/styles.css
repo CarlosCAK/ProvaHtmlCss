@@ -80,16 +80,15 @@ main{
 .content{
     padding: 3.5rem 0;
 }
-.content h4{
+.content .title-content{
     font-size: 2rem;
     font-weight: 600;
     line-height: 120%;
-
 }
 .our-services{
     text-align: center;
 }
-.our-services h4{
+.our-services .title-content{
     margin-bottom: 2rem;
 }
 .our-services img{
