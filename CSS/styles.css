@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     font-style: normal;
+    font-weight: 500;
 }
 :root{
     --title_color: #1D1E25;
@@ -15,6 +16,7 @@
 .introduction-container{
     background-color: var(--background_blue);
     padding: 0 5.4%;
+    padding-bottom: 1rem;
 }
 a{
     text-decoration: none;
@@ -45,22 +47,29 @@ header{
 }
 .buttons{
     display: flex;
-    
+    line-height: 162%;
+    margin-bottom: 3rem;
 }
-
 .green-button{
     background-color: #A7F46A;
-    width: 54%;
+    width: 11.5rem;
     border-radius: 6.25rem;
     padding: 0.88rem 1.25rem;
+    margin-right: 1rem;
 }
 .green-button a{
-    line-height: 100%;
     color: var(--title_color);
-    font-weight: 500;
 }
 .frame-button{
    display: flex;
    align-items: center;
+   gap: 0.5rem;
 }
+.frame-button a{
+    color: var(--text_white_color);
+}
+.white-space{
+    margin-top: -1.5rem;
+}
+
 
