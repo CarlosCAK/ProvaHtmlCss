@@ -71,5 +71,27 @@ header{
 .white-space{
     margin-top: -1.5rem;
 }
+.burnchart-grafic, .burnchart-grafic img, .white-space{
+    width: 100%;
+}
+main{
+    padding: 0 5.3%;
+}
+.content{
+    padding: 3.5rem 0;
+}
+.content h4{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 120%;
 
-
+}
+.our-services{
+    text-align: center;
+}
+.our-services h4{
+    margin-bottom: 2rem;
+}
+.our-services img{
+    width: 75%;
+}
