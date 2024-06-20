@@ -12,6 +12,7 @@
     --text_color: #7E8492;
     --text_white_color: #FFF;
     --text_background_blue: #EDEDED;
+    --background-feedbacks: #FAFBFA;
 }
 .introduction-container{
     background-color: var(--background_blue);
@@ -84,6 +85,8 @@ main{
     font-size: 2rem;
     font-weight: 600;
     line-height: 120%;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02rem;
 }
 .our-services{
     text-align: center;
@@ -94,3 +97,83 @@ main{
 .our-services img{
     width: 75%;
 }
+.subtitle-content{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    color: var(--title_color);
+    margin-bottom: .5rem;
+}
+.text-content{
+    color: var(--text_color);
+    font-size: 0.875rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+.img-content{
+    width: 100%;
+}
+.earnings img{
+    margin-bottom: 2.5rem;
+}
+.feedbacks .text-content{
+    font-size: 1rem;
+}
+.person-feedback{
+    background-color: var(--background-feedbacks);
+    padding: 1rem;
+}
+.people-feedback h4{
+    font-size: 1.125rem;
+    line-height: 120%;
+    font-weight: 600;
+}
+.active-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--title_color);
+    width: 4.25rem;
+    border-radius: 6.25rem;
+    padding: .5rem .75rem;
+    margin-left: auto;
+
+}
+.active-button a{
+    color: #FFF;
+    font-size: .875rem;
+    font-weight: 700;
+}
+.bio{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.text-bio{
+    padding: .8rem 1rem;
+}
+.person-name{
+    color: var(--title_color);
+    line-height: 1.625rem;
+    font-weight: 700;
+}
+.person-location{
+    color: var(--text_color);
+    line-height: 150%;
+}
+.feedback-text{
+    margin-left: .5rem ;
+    width: 100%;
+}
+.feedback-text h4{
+    font-size: 1.5rem;
+    letter-spacing: -0.015rem;
+    margin-bottom: 1rem;
+}
+.feedback-text p{
+    color: var(--text_color);
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+
+
+
