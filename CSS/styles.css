@@ -121,6 +121,7 @@ main{
 }
 .person-feedback{
     background-color: var(--background-feedbacks);
+    border-radius: 1rem;
     padding: 1rem;
 }
 .people-feedback h4{
