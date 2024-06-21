@@ -123,6 +123,7 @@ main{
     background-color: var(--background-feedbacks);
     border-radius: 1rem;
     padding: 1rem;
+    margin-bottom: 2.5rem;
 }
 .people-feedback h4{
     font-size: 1.125rem;
@@ -157,7 +158,7 @@ main{
     line-height: 1.625rem;
     font-weight: 700;
 }
-.person-location{
+.person-text-bio{
     color: var(--text_color);
     line-height: 150%;
 }
@@ -175,6 +176,10 @@ main{
     font-size: 1.125rem;
     line-height: 2rem;
 }
+.second-square{
+   padding-left: 1rem;
+}
+
 
 
 
