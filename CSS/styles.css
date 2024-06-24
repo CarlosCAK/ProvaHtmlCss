@@ -13,6 +13,7 @@
     --text_white_color: #FFF;
     --text_background_blue: #EDEDED;
     --background-feedbacks: #FAFBFA;
+    --blue-text : #546FFA;
 }
 .introduction-container{
     background-color: var(--background_blue);
@@ -161,6 +162,11 @@ main{
 .person-text-bio{
     color: var(--text_color);
     line-height: 150%;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+}
+#blue-text{
+    color: var(--blue-text);
 }
 .feedback-text{
     margin-left: .5rem ;
