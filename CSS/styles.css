@@ -205,6 +205,13 @@ main{
 #progress-container-title , .info-progress{
     margin-bottom: 1rem;
 }
+#feedback-text-progress{
+    margin-top: 2.5rem;
+}
+.testimonials{
+    border-bottom: solid var(--text_background_blue) 1px;
+    border-top: solid var(--text_background_blue) 1px;
+}
 
 
 
