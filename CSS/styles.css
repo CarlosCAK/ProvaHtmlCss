@@ -5,7 +5,9 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
+    
 }
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
 :root{
     --title_color: #1D1E25;
     --background_blue:#1F61FE;
@@ -89,7 +91,7 @@ main{
     margin-bottom: 1rem;
     letter-spacing: -0.02rem;
 }
-.our-services{
+.our-services, .agile-tools{
     text-align: center;
 }
 .our-services .title-content{
@@ -216,8 +218,32 @@ main{
     display: flex;
     align-items: center;
     gap: .5rem;
+    margin-bottom: 1.5rem;
 }
-
-
+#individual-feedback-text{
+    line-height: 120%;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+#author-name{
+    line-height: 2rem;
+    font-size: 1.125rem;
+}
+.author{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+}
+#author-job{
+    font-family: "Sonsie One", system-ui;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #80818C;
+}
+.agile-tools div .text-content{
+    text-align: center;
+}
 
 
