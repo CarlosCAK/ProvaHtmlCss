@@ -212,6 +212,11 @@ main{
     border-bottom: solid var(--text_background_blue) 1px;
     border-top: solid var(--text_background_blue) 1px;
 }
+.feedback-stars{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
 
 
 
