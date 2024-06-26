@@ -295,9 +295,22 @@ main{
 .benefits{
     display: flex;
     flex: 1 0 0 ;
+    align-items: center;
+    gap: .5rem;
 }
 .benefits p{
     font-size: 0.875rem;
     color: var(--text_background_blue);
     line-height: 150%;
+}
+.benefits .benefits-text{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+}
+.white-bar{
+    background-color: var(--text_background_blue);
+    height: 1rem;
+    width: 2px;
+
 }
