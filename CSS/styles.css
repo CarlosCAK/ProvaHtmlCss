@@ -425,6 +425,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     row-gap: 1.5rem;
+    justify-content: space-between;
 }
 
 .terms-and-privacy{
