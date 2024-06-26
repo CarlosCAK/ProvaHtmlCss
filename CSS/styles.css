@@ -242,8 +242,36 @@ main{
     line-height: 1.25rem;
     color: #80818C;
 }
-.agile-tools div .text-content{
-    text-align: center;
+#subtitle-content{
+    color: var(--text_color);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 2.5rem;
 }
-
-
+.tool-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.015rem;
+    text-align: left;
+    margin: 1rem 0 .5rem 0;
+}
+.img-tools{
+    width: 100%;
+}
+.tool-text{
+    font-size: .875rem;
+    line-height: 150%;
+    color: var(--text_color);
+    text-align: left;
+    margin-bottom: 2rem;
+}
+#lower-width-text{
+    width: 85%;
+}
+.ingress{
+    background-color: var(--background_blue);
+    border-radius: 1.25rem;
+    padding: 1.5rem 1rem;
+    z-index: -1;
+}
