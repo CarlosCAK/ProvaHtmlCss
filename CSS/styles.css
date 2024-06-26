@@ -279,6 +279,10 @@ main{
     padding: 1.5rem 1rem;
     height: auto;
     width: 100%;
+    background-image: url(../IMG/c.svg);
+    background-repeat: no-repeat;
+    background-position: 30% 92%;
+
 }
 .ingress-title{
     font-size: 2rem;
@@ -351,11 +355,7 @@ input{
     line-height: 1.625rem;
     font-size: 1rem;
 }
-#img-background{
-   margin: -17rem 0 0 1rem;
-   width: 100%;
 
-}
 form{
     display: flex;
     justify-content: center;
