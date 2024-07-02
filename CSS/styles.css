@@ -22,6 +22,11 @@
     background-color: var(--background_blue);
     padding: 0 5.4%;
     padding-bottom: 1rem;
+    background-image: url(/IMG/white-space.svg);
+    background-position: 0 113%;
+    background-repeat: no-repeat;
+    background-size: 101%;
+    
 }
 a{
     text-decoration: none;
@@ -50,6 +55,7 @@ header{
     color: var(--text_background_blue);
     margin-bottom: 2rem;
 }
+
 .buttons{
     display: flex;
     line-height: 162%;
@@ -444,7 +450,13 @@ footer{
 }
 @media (min-width: 976px){
 
-
+    .introduction-container{
+        padding: 0 7.5rem;
+    }
+    header{
+        padding: 1.5rem 0;
+       
+    }
     .hamburguer-img{
         display: none;
     }
@@ -483,8 +495,34 @@ footer{
         color: var(--text_white_color);
         line-height: 1.375rem;
     }
-
-
+    /* Fontes titulo e subtitulo container 1 */
+    .introduction-container h2{
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -0.045rem;
+        width: 80%;
+        margin-bottom: 1.5rem;
+    }
+    .introduction-container p{
+        width: 50%;
+        font-size: 1.125rem;
+        line-height: 2rem;
+        font-weight: 500;
+    }
+    .buttons{
+        margin: 5rem 0 0 2rem;
+        gap: 2.5rem;
+    }
+    .green-button a, .green-button{
+        font-weight: 700;
+        margin: 0;
+    }
+    .burnchart-grafic{
+        width: 50%;
+        margin: -12rem 0 0 auto;
+    }
+   
 }
 
 
