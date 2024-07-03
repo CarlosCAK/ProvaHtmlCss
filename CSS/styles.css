@@ -23,7 +23,7 @@
     padding: 0 5.4%;
     padding-bottom: 1rem;
     background-image: url(/IMG/white-space.svg);
-    background-position: 0 113%;
+    background-position: 0 105.5%;
     background-repeat: no-repeat;
     background-size: 101%;
     
@@ -120,6 +120,7 @@ main{
     line-height: 150%;
     margin-bottom: 2rem;
 }
+
 .img-content{
     width: 100%;
 }
@@ -452,6 +453,7 @@ footer{
 
     .introduction-container{
         padding: 0 7.5rem;
+        background-position: 0 112%;
     }
     header{
         padding: 1.5rem 0;
@@ -520,7 +522,7 @@ footer{
     }
     .burnchart-grafic{
         width: 50%;
-        margin: -12rem 0 0 auto;
+        margin: -14rem 0 0 auto;
     }
    
 }
