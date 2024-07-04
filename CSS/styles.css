@@ -91,21 +91,48 @@ main{
 .content{
     padding: 3.5rem 0;
 }
-.content .title-content{
+.content .title-content, .title-content span{
     font-size: 2rem;
     font-weight: 600;
     line-height: 120%;
     margin-bottom: 1rem;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.04rem;
+    width: 92%;
+    
 }
+.our-services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .our-services, .agile-tools{
     text-align: center;
 }
 .our-services .title-content{
     margin-bottom: 2rem;
 }
-.our-services img{
-    width: 75%;
+#notion-logo-container, #grammaly-logo-container, #descript-logo-container{
+    display: none;
+}
+.brands-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    height: 2.65rem;
+    max-width: 13.5rem;
+}
+.brand-logo{
+   width: 90%;
 }
 .subtitle-content{
     font-size: 1rem;
@@ -114,6 +141,18 @@ main{
     color: var(--title_color);
     margin-bottom: .5rem;
 }
+.title-container-services{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* #linha-1{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.02rem;
+    white-space: nowrap;
+    margin: 0 auto;
+} */
 .text-content{
     color: var(--text_color);
     font-size: 0.875rem;
@@ -524,7 +563,67 @@ footer{
         width: 50%;
         margin: -14rem 0 0 auto;
     }
+    #notion-logo-container, #grammaly-logo-container, #descript-logo-container{
+        display: flex;
+    }
+    .brands-container{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .brand{
+        height: 4.75rem;
+    }
+    /* fonte container 2 */
+    .our-services .title-content, .our-services .title-content span{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .title-container-services{
+        width: 75%;
+        font-weight: 600;
+        line-height: 120%; 
+        letter-spacing: -0.035rem;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+    }
+
+    /* fonte container 3 e pra frente */
+
+    .content .title-content{
+        font-size: 3.5rem;
+        letter-spacing: 0.035em;
+        width: 90%;
+    }
+    .subtitle-content{
+        font-size: 1.125rem;    
+    }
+    .text-content{
+        font-size: 1rem;
+    }
+    .make-organizate, .earnings{
+        display: flex;
+        padding: 7rem;
+        gap: 3rem
+    }
+    .make-organizate .title-content, .earnings .title-content{
+        margin-top: 4rem;
+        font-size: 2.4rem;
+    }
+    .img-about-content{
+        width: 100%;
+        display: flex;
+    }
+    .img-about-content img{
+        width: 100%;
+
+    }
+    .text-about-content{
+        width: 100%;
+    }
    
+
+    
 }
 
 
