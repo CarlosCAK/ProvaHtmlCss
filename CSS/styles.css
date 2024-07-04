@@ -595,6 +595,17 @@ footer{
         letter-spacing: 0.035em;
         width: 90%;
     }
+
+    .feedbacks .title-content {
+        font-size: 2.5rem;
+        letter-spacing: 0.035em;
+        width: 80%;
+    }
+    .feedbacks .text-content{
+        width: 60%;
+        font-size: 1.125rem;
+        line-height: 2rem
+    }
     .subtitle-content{
         font-size: 1.125rem;    
     }
@@ -621,9 +632,106 @@ footer{
     .text-about-content{
         width: 100%;
     }
+    .feedbacks{
+        padding: 7rem;
+    }
+    .people-feedback{
+        display: flex;
+        flex: 1;
+    }
+  
+    .progress img{
+        width: 100%;
+    }
    
+    .feedback-text h4{
+        font-size: 1.5rem;
+        line-height: 130%;
+        width: 72%;
+        font-weight: 700;
+    }
+    .feedback-text p{
+        font-size: 1.125rem;
+        line-height: 2rem;
+        width: 74%;
+    }
+    .person-1 .bio{
+        margin-bottom: 6.5rem;
+    }
+    .person-2 #bio-bar{
+        margin-bottom: 2.8rem;
+    }
+    #feedback-text-progress{
+        margin-top: 2rem;
+    }
+    .active-button{
+        margin-top: -1rem;
+    }
+    .testimonials{
+        padding: 5rem 7.5rem;
+    }
 
-    
+    /* fontes feedback individual */
+    #individual-feedback-text{
+        font-size: 2.3rem;
+        line-height: 120%;
+    }
+    #author-name{
+        font-size: 1.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+    #author-job{
+        font-family: "Sonsie One";
+        font-size: 1rem;
+        font-style: normal;
+        line-height: 1.25rem;   
+    }
+    .agile-tools{
+        padding: 7rem 7.5rem;
+    }
+    .agile-tools .title-content{
+        font-size: 2.6rem;
+        width: 70%;
+        margin: 0 auto 1.5rem auto;
+    }
+    .agile-tools #subtitle-content{
+        font-size: 1.125rem;
+        width: 60%;
+        margin: 0 auto 1.5rem auto;
+    }
+    .tools{
+        display: flex;
+        gap: 2rem;
+    }
+    .tool{
+        flex: 1;
+    }
+    .tools img{
+        width: 100%;
+    }
+    .ingress{
+        background-position: center left;
+    }
+    .email{
+        width: 21rem;
+    }
+    .container-form{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .ingress form{
+        display: flex;
+    }
+    .submit{
+        height: 3.375rem;
+    }
 }
+@media (min-width: 976px) and (max-width: 1300px){
 
+   .content{
+    padding: 3.5rem;
+   }
+}
 
