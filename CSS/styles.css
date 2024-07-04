@@ -352,8 +352,7 @@ main{
     align-items: center;
     gap: .5rem;
     margin: 0 auto 2.5rem auto;
-    max-width: 25rem;
-    
+
 }
 .benefits p{
     font-size: 0.875rem;
@@ -712,7 +711,12 @@ footer{
         width: 100%;
     }
     .ingress{
-        background-position: center left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-position: 5% 80%;
+        padding: 4.5rem 3.5rem 3.5rem 3.5rem;
     }
     .email{
         width: 21rem;
@@ -727,6 +731,74 @@ footer{
     .submit{
         height: 3.375rem;
     }
+    .ingress-title{
+        width: 70%;
+        font-size: 3.5rem;
+        letter-spacing: -0.035rem;
+    }
+    .benefits{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3.5rem;
+    }
+
+    .benefits .benefits-text{
+        width: auto;
+    }
+   .benefits-text p{
+    font-size: 1rem;
+   }
+
+   .title-info-content{
+    display: flex;
+   }
+   .title-info-content #footer-title {
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.045rem;
+    width: 50%;
+    margin: 0;
+   }
+   .company-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+   }
+   .services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+   }
+   
+   .services .logo, .social-media-icons{
+    justify-content: flex-end;
+   }
+   .services .logo{
+    width: 15%;
+    margin: 0;
+   }
+
+   #nav-footer ul{
+    width: 100%;
+    justify-content: center;
+   }
+   #nav-footer ul li{
+    margin: 0;
+   }
+
+   .legal-terms{
+    flex-direction: row-reverse;
+   }
+   footer{
+    padding: 3.5rem 7rem 2rem 7rem;
+    
+   }
+
+
 }
 @media (min-width: 976px) and (max-width: 1300px){
 
