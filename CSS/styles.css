@@ -145,14 +145,6 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-/* #linha-1{
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 120%;
-    letter-spacing: -0.02rem;
-    white-space: nowrap;
-    margin: 0 auto;
-} */
 .text-content{
     color: var(--text_color);
     font-size: 0.875rem;
@@ -678,7 +670,6 @@ footer{
     }
     #author-name{
         font-size: 1.5rem;
-        font-size: 1.5rem;
         font-weight: 600;
         line-height: 2rem;
     }
@@ -699,7 +690,7 @@ footer{
     .agile-tools #subtitle-content{
         font-size: 1.125rem;
         width: 60%;
-        margin: 0 auto 1.5rem auto;
+        margin: 0 auto 3.5rem auto;
     }
     .tools{
         display: flex;
@@ -803,6 +794,9 @@ footer{
    #grey-division-bar{
     margin: 2.5rem 0;
 }
+.feedback-stars img{
+    width: 20%;
+}
 
 
 }
@@ -811,5 +805,143 @@ footer{
    .content{
     padding: 3.5rem;
    }
+   .introduction-container .buttons{
+    margin-left: 0;
+   }
+}
+
+/* Ajustando as fontes nas resoluções */
+
+@media (min-width: 650px){
+
+    .introduction-container h2{
+        font-size: 2.5rem;
+    }
+    .introduction-container p{
+        font-size: 1rem;
+    }
+   
+    .our-services .title-content, .our-services .title-content span{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .content .title-content, .feedbacks .title-content{
+        font-size: 2.5rem;
+    }
+     .subtitle-content{
+        font-size: 1.3rem;
+    }
+    .text-content{
+        font-size: 1rem;
+    }
+    .text-content,  #author-job,.benefits-text p{
+        font-size: 1rem;
+    }
+
+.feedback-text h4, #author-name{
+        font-size: 1.5rem;
+    }
+
+ .feedback-text p{
+        font-size: 1.125rem;
+    }
+    #individual-feedback-text{
+        font-size: 2.3rem;
+    }
+
+.agile-tools .title-content{
+        font-size: 2.6rem;
+       
+    }
+.title-info-content #footer-title {
+    font-size: 4.5rem;
+   }
+
+}
+@media (min-width: 1600px){
+
+    .introduction-container h2{
+        font-size: 4rem;
+    }
+    .introduction-container p{
+        font-size: 1.5rem;
+    }
+   
+    .our-services .title-content, .our-services .title-content span{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .content .title-content, .feedbacks .title-content{
+        font-size: 3.5rem;
+    }
+     .subtitle-content{
+        font-size: 1.7rem;
+    }
+    .text-content{
+        font-size: 1.3rem;
+    }
+    .feedbacks .text-content, #author-job,.benefits-text p{
+        font-size: 1.3rem;
+    }
+    .feedback-text h4, #author-name{
+        font-size: 1.7rem
+    }
+    .text-bio{
+        width: 100%;
+    }
+    #bar{
+        margin-bottom: 1.5rem;
+    }
+    .text-bio p{
+        font-size: 1.25rem;
+    }
+    .person-2 #bio-bar{
+        margin-bottom: 3.3rem;
+    }
+    .person-feedback h4, .feedback-stars p{
+        font-size: 2rem;
+    }
+    
+
+    .feedback-text p{
+        font-size: 1.5rem;
+    }
+    #individual-feedback-text{
+        font-size: 3rem;
+    }
+
+    .agile-tools .title-content{
+        font-size: 3.5rem;
+    }
+    .agile-tools #subtitle-content{
+       font-size: 1.7rem;
+       line-height: 150%;
+    }
+    .tool-title{
+        font-size: 2rem;
+    }
+    .tool-text{
+        font-size: 1.4rem;
+    }
+    .subtitle-ingress{
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+    .benefits-text p{
+        font-size: 1.5rem;
+    }
+    .company-info{
+        font-size: 1.5rem;
+    }
+
+    #nav-footer ul li a, .legal-terms a, .legal-terms p{
+        font-size: 1.3rem;
+    }
+.title-info-content #footer-title {
+    font-size: 5rem;
+   }
+
 }
 
