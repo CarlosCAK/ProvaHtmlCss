@@ -596,12 +596,12 @@ footer{
     }
 
     .feedbacks .title-content {
-        font-size: 2.5rem;
+        font-size: 3rem;
         letter-spacing: 0.035em;
         width: 80%;
     }
     .feedbacks .text-content{
-        width: 60%;
+        width: 55%;
         font-size: 1.125rem;
         line-height: 2rem
     }
@@ -637,6 +637,7 @@ footer{
     .people-feedback{
         display: flex;
         flex: 1;
+        gap: 2rem;
     }
   
     .progress img{
@@ -795,8 +796,13 @@ footer{
    }
    footer{
     padding: 3.5rem 7rem 2rem 7rem;
-    
+    background-image: url(../IMG/c-background-footer.svg);
+    background-repeat: no-repeat;
+    background-position: 94%;
    }
+   #grey-division-bar{
+    margin: 2.5rem 0;
+}
 
 
 }
