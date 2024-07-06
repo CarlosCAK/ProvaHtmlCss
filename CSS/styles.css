@@ -808,6 +808,10 @@ footer{
    .introduction-container .buttons{
     margin-left: 0;
    }
+   .buttons{
+    margin-top: 0;
+    padding-bottom: 2.5rem;
+   }
 }
 
 /* Ajustando as fontes nas resoluções */
@@ -942,6 +946,6 @@ footer{
 .title-info-content #footer-title {
     font-size: 5rem;
    }
-
 }
+
 
