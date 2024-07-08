@@ -25,15 +25,32 @@ Este projeto é uma página web estática criada para promover os serviços e pr
 
 ### Como visualizar o projeto 
 
-    1- Baixe o arquivo compactado pelo github clicando em Download Zip.
+####    1- Baixe o arquivo compactado pelo github clicando em Download Zip.
 ![download-projeto](</imgReadMe/Dowload.png>)
 
-    2- Descompacte o arquivo baixado 
+####   2- Descompacte o arquivo baixado 
 
 ![descompactando](</imgReadMe/Descompactar.png>)
 
-    3- Abr
+#### 3 - Após descompactar a imagem, abra o Visual Studio Code. 
+
+![Abrindo-o-Projeto](</imgReadMe/vscode-options.png>)
+
+    Para abrir o projeto basta:
+
+-   Clicar em Open folder
+-   Escolher a pasta do projeto descompactada
+-   Selecionar a pasta
+
+#### 4 Abrindo o projeto no navegador
     
+-   Baixe a extensão do live server no Visual Studio Code
+
+![live-server](</imgReadMe/Live-Server.png>)
+
+-   Após baixar a extensão, abra o arquivo index.html no Visual Studio Code e clique em Go Live no canto inferior direito, para visualizar o projeto no navegador.
+
+![Go-Live](</imgReadMe/go-live.png>)
 
 ## Imagens
 
