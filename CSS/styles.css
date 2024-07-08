@@ -239,6 +239,9 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.info-progress img{
+    width: 100%;
+}
 .progress-info p{
     font-size: .875rem;
     line-height: 150%;
@@ -618,7 +621,6 @@ footer{
     }
     .img-about-content img{
         width: 100%;
-
     }
     .text-about-content{
         width: 100%;
