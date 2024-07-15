@@ -27,6 +27,8 @@
     background-repeat: no-repeat;
     background-size: 101%;
     
+    
+    
 }
 a{
     text-decoration: none;
@@ -486,7 +488,7 @@ footer{
 
     .introduction-container{
         padding: 0 7.5rem;
-        background-position: 0 112%;
+        background-position: 0 122%;
     }
     header{
         padding: 1.5rem 0;
